@@ -6,8 +6,10 @@ University of Denver, March 2019
 1. In the working directory, create folders DATA, Images, Images_Test, Annotations_Simple, Annotations_Simple_Test, TB,
 2. Download data from: https://www.kaggle.com/crawford/emnist and place in folder DATA
 3. Use Generate_Train_and_Test.py to generate training and test data from EMNIST characters
-4. Use CNN_Eval.py to perform inference and view results using the trained model
-5. Train your own model using CNN_Train.py
+4. Train your own model using CNN_Train.py
+5. Use CNN_Eval.py to perform inference and view results using the trained model
+6. Use the pretrained model to perform inference before training your own!
+
 
 
 
