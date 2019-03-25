@@ -110,7 +110,7 @@ def get_box_ground(im, _box, pc1, pc2, num_anchor_boxes, im_path, pw, ph, num_gr
                         ft_map2[g_idx][cell_coord[1],cell_coord[0],1+(2*anch_idx)]=bh
                         ft_map3[g_idx][cell_coord[1],cell_coord[0],0+anch_idx]=1 # Objectness score should be 1 because box is present
                         ft_map4[g_idx][cell_coord[1],cell_coord[0], num_classes*anch_idx + int(box[0])]=1 # Assign class
-                        break # Stop looking for empty anchor boxes if we already found one
+                        #break # Stop looking for empty anchor boxes if we already found one
 
         #lambda1=lambda1*np.expand_dims(ft_map[:,:,1],axis=-1); # Initialized mask is multiplied by either 0 or 1 based on grounf truth objectness score
         for jjj in range(len(lambda1)):
